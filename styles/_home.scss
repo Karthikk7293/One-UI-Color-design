@@ -44,8 +44,8 @@ nav{
 }
 .showcase{
     display: grid;
-    min-height: 40vh;
-    grid-template-columns:10% repeat(3, minmax(5rem,1fr)) 10% ;
+    height: 600px;
+    grid-template-columns:10% repeat(3, minmax(4rem,1fr)) 10% ;
     grid-template-rows: 1fr 2fr 1fr;
 
     h2{
