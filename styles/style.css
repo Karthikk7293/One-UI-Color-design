@@ -287,27 +287,4 @@ footer h1 {
       -ms-flex: 17;
           flex: 17;
 }
-
-@media screen and (max-height: 1200px) {
-  html {
-    font-size: 50%;
-  }
-  nav #logo {
-    -webkit-box-flex: 1;
-        -ms-flex: 1;
-            flex: 1;
-  }
-  nav ul li {
-    margin-left: 5rem;
-  }
-  .showcase {
-    -ms-grid-columns: 5% 1fr;
-        grid-template-columns: 5% 1fr;
-  }
-  .showcase img {
-    width: 100%;
-    -o-object-fit: contain;
-       object-fit: contain;
-  }
-}
 /*# sourceMappingURL=style.css.map */

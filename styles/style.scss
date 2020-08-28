@@ -43,28 +43,3 @@ a{
 @import 'soon';
 @import 'footer';
 
-@media screen and (max-height: 1200px){
-    html{
-        font-size: 50%;
-    }
-    nav{
-        #logo{
-            flex: 1;
-        }
-        ul{
-            li{
-                margin-left: 5rem;
-            }
-        }
-    }
-    .showcase{
-        grid-template-columns: 5% 1fr ;
-        img {
-            width: 100%;
-            object-fit: contain;
-        }
-        img, h2,info {
-            grid-column: 2/3;
-            text-align: center;
-    }
-}
